@@ -27,6 +27,7 @@ public class DisciplinaDAO {
 				Disciplina disciplina = new Disciplina(id, nome, professor, periodo, codigo_sala_classroom);
 				lista.add(disciplina);
 			}
+			
 			retorno.close();
 			stmt.close();
 			conexao.close();
